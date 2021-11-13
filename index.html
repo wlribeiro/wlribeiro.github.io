@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background-color: purple;
+        }
+
+        #gengar {
+            width: 240px;
+            height: 240px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+            position: relative
+        }
+
+        .spinpinspin {
+            animation-name: spin;
+            animation-duration: 2.0s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(1440deg);
+            }
+        }
+
+    </style>
+</head>
+<body >
+    <div class="container">
+        <img class="spinpinspin" id="gengar" src="img/imgbin_pokémon-x-and-y-pikachu-gengar-haunter-png.png" alt="pokemon gengar">
+    </div>
+    
+</body>
+</html>
