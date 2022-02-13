@@ -1,51 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        .container {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            background-color: purple;
-        }
-
-        #gengar {
-            width: 240px;
-            height: 240px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 10%;
-            position: relative
-        }
-
-        .spinpinspin {
-            animation-name: spin;
-            animation-duration: 2.0s;
-            animation-iteration-count: infinite;
-        }
-
-        @keyframes spin {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(1440deg);
-            }
-        }
-
-    </style>
+    <meta name="description" content="Um bot para gerenciar a sua comunidade do discord">
+    <title>William Ribeiro - Software developer</title>
+    <link rel="shortcut icon" href="image/w-logo.png" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body >
-    <div class="container">
-        <img class="spinpinspin" id="gengar" src="img/imgbin_pokémon-x-and-y-pikachu-gengar-haunter-png.png" alt="pokemon gengar">
-    </div>
-    
+<body>
+    <header class="header">
+        <img class="header-img" src="image/w-logo.png" alt="logo">
+        <nav class="header-menu">
+            <a class="header-menu-item">Projetos</a>
+            <a class="header-menu-item">Ferramentas</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="content-primary">
+            <div class="content-primary-writed">
+                <h1 class="content-primary-writed-title">
+                    William Ribeiro
+                </h1>
+                <h2 class="content-primary-writed-subtitle">Simplificando problemas atráves de software</h2>
+                <div class="content-primary-logo">
+                    <a href="https://www.linkedin.com/in/williamlimaribeiro/" target="_blank"><img class="content-primary-logo-item" src="image/logo-linkedin.png"></a>
+                    <a href="https://github.com/wlribeiro" target="_blank"><img class="content-primary-logo-item" src="image/logo-github.png"></a>
+                </div>
+            </div>
+        <img class="content-primary-img" src="image/william-ribeiro.jpeg" alt="foto william" onclick="helloGengar()">
+        </section>
+
+        <section class="content-secondary">
+            <h3 class="content-secondary-title">
+                Minhas principais experiencias:
+            </h3>
+            <ul>
+                <li class="content-secondary-paragraph"><p>Desenvolvimento de software</p></li>
+                <li class="content-secondary-paragraph"><p>Web crawlers e web scrapers</p>
+                <li class="content-secondary-paragraph"><p></p>Aulas sobre desenvolvimento de software</p>
+                <li class="content-secondary-paragraph"><p>Gerenciamento de projetos</p>
+            </ul>
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img class="footer-img" src="image/w-logo.png">
+    </footer>
 </body>
 </html>
