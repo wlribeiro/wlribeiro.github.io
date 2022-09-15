@@ -205,9 +205,19 @@
         </div>
     </footer>
 
-    <a class="gototop" href="#">
+    <a class="gototop" id="gototop" href="#">
     </a>
 
+    <script>
+        document.addEventListener('scroll', (event) => {
+            let goToTop = document.getElementById("gototop")
+            if(window.pageYOffset <= 190){
+                goToTop.style.visibility = "hidden"
+            } else if(window.pageYOffset >= 200) {
+                goToTop.style.visibility = "unset"
+            }
+        })
+    </script>
 </body>
 
 </html>

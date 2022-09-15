@@ -196,6 +196,7 @@ body{
 }
 
 .gototop {
+    visibility: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,7 +209,7 @@ body{
     text-decoration: none;
 }
 .gototop::after {
-    content: "↑";
+    content: "▲";
     font-size: 32px;
     font-weight: bold;
     color: #321253;
