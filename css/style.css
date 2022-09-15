@@ -73,7 +73,7 @@ body{
     align-items: center;
     height: auto;
     color: white;
-    background-color: black;
+    background-color: #080808;
 }
 
 .content-secondary-title{
@@ -116,20 +116,17 @@ body{
 }
 
 .content-terciary {
-    margin-top: 20vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     color: white;
 }
 
 .content-terciary-skills{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10vh;
-    margin-left: 20px;
+    display: grid;
+    grid-column: span;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;
+    padding: 20px;
 }
 .content-terciary-skills-item{
     display: flex;
